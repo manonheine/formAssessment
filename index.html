@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <link rel="stylesheet" href="https:/maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.2/css/bootstrap.min.css" integrity="sha384-PsH8R72JQ3SOdhVi3uxftmaW6Vc51MKb0q5P2rRUpPvrszuE4W1povHYgTpBfshb" crossorigin="anonymous">
+
+    <script src="https://code.jquery.com/jquery-3.4.1.min.js" integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo=" crossorigin="anonymous"></script>
+
+    <link rel="stylesheet" href="style.css">
+    <title>Incentro Assessment</title>
+  </head>
+  <body>
+
+    <!-- create a form for initials, prefix, lastName, postcode, houseNumber, street and city will fill in automatically, e-mail -->
+
+
+        <div class="row no-gutters">
+
+
+          <div class="col col-lg-6 col-md-12 col-sm-12 col-12 imgBox">
+            <div class="overlay-text">
+              <h3>your weekly dose of</h3>
+              <h1>adventure</h1>
+              <h3>delivered to your doorstep</h3>
+            </div>
+            <img src="ski_adventure.jpg" class="img-fluid">
+
+          </div>
+
+          <div class="col col-lg-6 col-md-12 col-sm-12 col-12" id="formColumn">
+
+            <form class="container" action="#" method="post" id="needs-validation" novalidate>
+
+
+              <div class="form-row">
+                <div class="form-group col-md-6">
+                  <label for="initialInput">Initials</label>
+                  <input type="text" name="initialInput" class="form-control" id="initialInput" placeholder="ABC" required>
+                  <div class="invalid-feedback">
+                    Please enter at least one initial
+                  </div>
+                </div>
+
+                <div class="form-group col-md-6">
+                  <label for="prefixInput">Prefix</label>
+                  <input type="text" name="prefixInput" class="form-control" id="prefixInput" placeholder="van der">
+                </div>
+              </div>
+
+              <div class="form-row">
+                <div class="form-group col-md-6">
+                  <label for="lastNameInput">Last name</label>
+                  <input type="text" name="lastNameInput" class="form-control" id="lastNameInput" placeholder="Lindenhoven" required>
+                  <div class="invalid-feedback">
+                    Please enter your last name
+                  </div>
+                </div>
+              </div>
+
+              <div class="form-row">
+                <div class="form-group col-sm-6">
+                  <label for="postcodeInput">Postcode</label>
+                  <input type="text" name="postcodeInput" class="form-control" id="postcodeInput" maxlength="6" placeholder="1234AB" required>
+                  <div class="invalid-feedback">
+                    Please enter your postcode
+                  </div>
+                </div>
+
+                <div class="form-group col-sm-6">
+                  <label for="houseNumberInput">House number</label>
+                  <input type="number" name="houseNumber" class="form-control" id="houseNumberInput" placeholder="123" required>
+                  <div class="invalid-feedback">
+                    Please enter your house number
+                  </div>
+                </div>
+              </div>
+
+              <div class="form-row">
+                <div class="form-group col-sm-6">
+                  <label for="streetInput">Street</label>
+                  <input type="text" name="streetInput" class="form-control" id="streetInput" disabled required>
+                </div>
+
+                <div class="form-group col-sm-6">
+                  <label for="cityInput">City</label>
+                  <input type="text" name="cityInput" class="form-control" id="cityInput" disabled  required>
+                </div>
+              </div>
+
+              <div class="form-row">
+                <div class="form-group col-lg-6">
+                    <label for="emailInput">E-mail</label>
+                    <input type="email" name="emailInput" class="form-control" id="emailInput" placeholder="voorbeeld@domein.nl" required>
+                    <div class="invalid-feedback">
+                      Please enter a valid e-mail address
+                    </div>
+                </div>
+              </div>
+
+              <button class="btn btn-dark" name="button" type="submit">Submit</button>
+
+            </form>
+            </div>
+          </div>
+
+
+
+
+    <script type="text/javascript" src="script.js"></script>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.3/umd/popper.min.js" integrity="sha384-vFJXuSJphROIrBnz7yo7oB41mKfc8JzQZiCq4NCceLEaO4IHwicKwpJf9c9IpFgh" crossorigin="anonymous"></script>
+
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.2/js/bootstrap.min.js" integrity="sha384-alpBpkh1PFOepccYVYDB4do5UnbKysX5WZXm3XxPqe5iKTfUKjNkCk9SaVuEZflJ" crossorigin="anonymous"></script>
+
+
+
+  </body>
+</html>

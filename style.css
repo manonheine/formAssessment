@@ -1,0 +1,85 @@
+
+
+
+body {
+  background-color: rgb(81, 81, 81);
+}
+
+h3, input, button {
+  font-family: Raleway-Light;
+  padding: 0;
+}
+
+h1 {
+  font-family: Roboto-Black;
+  color: rgb(207, 48, 9);
+  text-transform: uppercase;
+}
+
+.overlay-text {
+  text-align: center;
+  bottom: inherit;
+  padding-left: 30%;
+  padding-right: 30%;
+  padding-top: 15%;
+  background: transparent;
+  top: 0;
+  left: 0;
+  position: absolute;
+  font-size: 1.5rem;
+}
+
+.imgBox {
+  text-align: center;
+  /* position: relative; */
+}
+
+#formColumn {
+  background-color: rgb(242, 242, 242);
+}
+
+form {
+  padding-top: 7rem;
+  padding-left: 2rem;
+  padding-right: 2rem;
+}
+
+.form-control {
+  background: rgb(242, 242, 242);
+  border: none;
+  border-bottom: 2px solid rgb(108, 108, 108);
+  border-radius: 0;
+  box-shadow: none;
+  fill: none;
+}
+
+#streetInput, #cityInput {
+  border-bottom: 2px solid rgb(176, 176, 176);
+  background: rgb(242, 242, 242);
+}
+
+#initialInput {
+  text-transform: uppercase;
+}
+
+#prefixInput {
+  text-transform: lowercase;
+}
+
+#lastNameInput {
+  text-transform: capitalize;
+}
+
+.form-control #cityInput {
+  border-bottom: 2px solid rgb(176, 176, 176);
+}
+
+.btn {
+  align-items: flex-start;
+  background-color: rgb(207, 48, 9);
+  border: 1px solid rgb(207, 48, 9);
+  border-radius: 40px;
+  margin-top: 2rem;
+  margin-bottom: 4rem;
+  width: 7rem;
+}
