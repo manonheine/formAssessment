@@ -21,7 +21,7 @@
 
 $("#postcodeInput").blur(function(){
 
-  var api = "http://photon.komoot.de/api/?q=";
+  var api = "https://photon.komoot.de/api/?q=";
   var input = document.getElementById("postcodeInput").value;
 
   $.ajax({
